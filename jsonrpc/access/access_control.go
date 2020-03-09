@@ -5,9 +5,9 @@ import (
 	"context"
 	"net/http"
 
-	"gitlab.forceup.in/dev-go/gosf/jsonrpc"
-	"gitlab.forceup.in/dev-go/gosf/unsafe"
-	"gitlab.forceup.in/dev-proto/common"
+	"github.com/ipfs-force-community/gosf/jsonrpc"
+	"github.com/ipfs-force-community/gosf/unsafe"
+	"github.com/ipfs-force-community/common"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"gitlab.forceup.in/dev-go/gosf/metric"
-	"gitlab.forceup.in/dev-go/gosf/proc"
+	"github.com/ipfs-force-community/gosf/metric"
+	"github.com/ipfs-force-community/gosf/proc"
 )
 
 func init() {
