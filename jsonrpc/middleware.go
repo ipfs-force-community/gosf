@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"gitlab.forceup.in/dev-proto/common"
+	"github.com/ipfs-force-community/common"
 )
 
 // Middleware defines a simple middleware for jsonrpc
