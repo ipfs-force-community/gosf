@@ -3,7 +3,7 @@ package jsonrpc
 import (
 	"net/http"
 
-	"gitlab.forceup.in/dev-go/gosf/proc"
+	"github.com/ipfs-force-community/gosf/proc"
 )
 
 // RegisterMux register a jsonrpc mux onto the given std *http.ServeMux, and uses http.DefaultServeMux if stdmux is nil
