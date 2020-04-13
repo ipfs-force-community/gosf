@@ -1,4 +1,4 @@
-module gitlab.forceup.in/dev-go/gosf
+module github.com/ipfs-force-community/gosf
 
 go 1.12
 
