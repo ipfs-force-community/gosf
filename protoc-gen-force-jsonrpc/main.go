@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	_ "gitlab.forceup.in/dev-go/gosf/plugin/jsonrpc"
+	_ "github.com/ipfs-force-community/gosf/plugin/jsonrpc"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/generator"

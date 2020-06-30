@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.forceup.in/dev-proto/common"
+	"github.com/ipfs-force-community/common"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
@@ -19,9 +19,9 @@ func init() {
 const (
 	httpPkgPath = "net/http"
 
-	jsonrpcPkgPath     = "gitlab.forceup.in/dev-go/gosf/jsonrpc"
-	accessPkgPath      = "gitlab.forceup.in/dev-go/gosf/jsonrpc/access"
-	protoCommonPkgPath = "gitlab.forceup.in/dev-proto/common"
+	jsonrpcPkgPath     = "github.com/ipfs-force-community/gosf/jsonrpc"
+	accessPkgPath      = "github.com/ipfs-force-community/gosf/jsonrpc/access"
+	protoCommonPkgPath = "github.com/ipfs-force-community/common"
 
 	commonEmptyType = ".common.Empty"
 )
