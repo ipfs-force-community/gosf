@@ -1,5 +1,5 @@
 plugin:
-	go install gitlab.forceup.in/dev-go/gosf/protoc-gen-force-jsonrpc
+	go install github.com/ipfs-force-community/gosf/protoc-gen-force-jsonrpc
 
 install: plugin
 	go install ./...
